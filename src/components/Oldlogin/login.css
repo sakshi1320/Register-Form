@@ -1,0 +1,74 @@
+.mainBackground {
+  background-image: url("../../public/images/bground.png");
+  width: 100%;
+  height: 47vw;
+  color: white;
+  /* position: absolute; */
+}
+.pageAlign {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+}
+.mainHeading h3 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.mainHeading h5 {
+  margin-left: 30px;
+  font-size: 13px;
+}
+.mainHeading div {
+  margin-left: 30px;
+}
+.btnStyle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  background-color: white;
+  color: gainsboro;
+  opacity: 3;
+  border: none;
+  border-radius: 20px;
+  gap: 10px;
+}
+.d-flex :hover {
+  color: orangered;
+}
+.mainDiv {
+  border: solid 3px yellow;
+  padding: 30px;
+  margin: 10px;
+}
+.mainDiv dt {
+  font-size: 15px;
+}
+.mainDiv input {
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background: transparent;
+  padding-bottom: 10px;
+  gap: 10px;
+  color:#fff;
+}
+.fgpass {
+  border: none;
+  background: transparent;
+  margin-top: 10px;
+}
+.forpassword {
+  color: blue;
+  font-size: 13px;
+}
+.signBtn {
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.footer {
+  margin-top: 30px;
+}

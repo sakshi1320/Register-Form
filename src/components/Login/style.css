@@ -1,0 +1,92 @@
+.mainbody {
+  /* background-image: url(""); */
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 3px red; */
+}
+.container-right {
+  background-color: blue;
+ 
+}
+.logo img {
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}
+.heading h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.select-block {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  /* margin-bottom: 5px; */
+}
+.opt-block {
+  width: 400px;
+  height: 40px;
+}
+.selectlable {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-size: 17px;
+  font-weight: 500;
+  /* background-color: pink; */
+}
+.input-block {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  
+}
+.input-block-mobile {
+  display: flex;
+  gap: 10px;
+}
+.input-lable {
+  font-size: 17px;
+  font-weight: 500;
+}
+.buttons {
+  /* background-color: blue; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-btn {
+  width: 300px;
+  background: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  color: red;
+  font-size: 10px;
+  font-weight: 500;
+}
+/* main page style */
+.backgroundimg {
+  background-image: url("../../../public/images/photo.jfif");
+  /* height: 550px; */
+  /* width: 1500px; */
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+.img-text {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
